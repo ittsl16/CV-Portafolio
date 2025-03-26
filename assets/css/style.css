@@ -674,6 +674,43 @@ section {
   text-decoration: underline; /* Subrayado si lo deseas */
 }
 
+
+.portfolio .portfolio-wrap .portfolio-links {
+  display: flex;
+  justify-content: space-between; /* Separa los botones */
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  z-index: 3;
+}
+
+/* Estilos generales para ambos botones */
+.portfolio .portfolio-wrap .portfolio-links a {
+  width: 45%; /* Ambos botones ocupan espacio similar */
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  background: #C5E898;
+  padding: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: #009990;
+}
+
+/* Estilo específico para el botón de "Ver Proyecto" */
+.portfolio .portfolio-wrap .portfolio-project {
+  background: rgba(20, 221, 157, 0.75); /* Color diferente */
+}
+
+.portfolio .portfolio-wrap .portfolio-project:hover {
+  background: rgba(20, 221, 157, 0.95);
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
